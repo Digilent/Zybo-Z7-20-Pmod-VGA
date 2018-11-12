@@ -3,7 +3,7 @@ Zybo Z7-20 Pmod VGA Demo
 
 Description
 --------------
-This project is a Vivado demo using the Zybo Z7-20's, Pmod Ports and the Pmod VGA written in VHDL. The Pmod VGA is controlled by the Zybo Z7-20 through Pmod ports JB and JC. When programmed onto the board, a bouncing box and many test pattern bars are displayed on a connected VGA monitor. The screen resolution is configurable through HDL code.
+This project is a Vivado demo using the Zybo Z7-20's, Pmod Ports and the Pmod VGA written in VHDL. The Pmod VGA is controlled by the Zybo Z7-20 through Pmod ports JC and JD. When programmed onto the board, a bouncing box and many test pattern bars are displayed on a connected VGA monitor. The screen resolution is configurable through HDL code.
 
 You may want to change the display resolution if your VGA monitor does not support 1080p, or you want to modify the demo for a specific application. 
 To select a different display resolution, select the appropriate set of Sync Generation constants for your target resolution from the list starting at line 47 of top.vhd. Uncomment the ten corresponding constants, FRAME_WIDTH through V_POL, and comment the default versions of those same constants. The default resolution is 1920×1080 @ 60Hz.
